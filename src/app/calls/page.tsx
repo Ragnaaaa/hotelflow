@@ -18,7 +18,7 @@ export default function CallsPage() {
     <div className="flex min-h-screen">
       <Navigation />
       <main className="flex-1 p-4 md:p-8">
-        <h1 className="text-2xl font-bold mb-6">📞 Suivi téléphonique</h1>
+        <h1 className="text-2xl font-bold mb-6">Suivi téléphonique</h1>
         <div className="space-y-3">
           {loading ? (
             <div className="text-center py-8 text-gray-500">Chargement...</div>

@@ -90,7 +90,7 @@ export default function ReservationsPage() {
       <Navigation />
       <main className="flex-1 p-4 md:p-8">
         <div className="flex items-center justify-between mb-6">
-          <h1 className="text-2xl font-bold">📅 Réservations</h1>
+          <h1 className="text-2xl font-bold">Réservations</h1>
           <button onClick={() => setShowForm(v => !v)} className="px-4 py-2 rounded-lg bg-blue-600 text-white text-sm font-medium hover:bg-blue-700">
             {showForm ? 'Annuler' : '+ Nouvelle réservation'}
           </button>

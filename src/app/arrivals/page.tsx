@@ -26,7 +26,7 @@ export default function ArrivalsPage() {
     <div className="flex min-h-screen">
       <Navigation />
       <main className="flex-1 p-4 md:p-8">
-        <h1 className="text-2xl font-bold mb-6">🚪 Arrivées & Départs</h1>
+        <h1 className="text-2xl font-bold mb-6">Arrivées & Départs</h1>
 
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-6">
           <div>
